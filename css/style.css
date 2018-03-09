@@ -1,0 +1,28 @@
+body {
+    box-sizing: border-box;
+    width: auto;
+    margin: 0;
+    background: #D8D8D8;
+}
+header {
+    margin: 20px 40%;
+    width: 20%;
+    font-size: 40px;
+    text-align: left;
+    clear: both;
+}
+.container{
+    width: 100%;
+    height: auto;
+    box-sizing: border-box;
+        overflow: auto;
+
+}
+.container>div {
+    position: relative;
+    float: left;
+    padding: 10px;
+    text-align: center;
+    width: 20%;
+    height: auto;
+}
